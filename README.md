@@ -10,7 +10,7 @@
 
 ###  
 
-<p align="left">✨ I started creating bugs in <strong>2022</strong>, and I haven't stopped since then.  <br><br>📚 I'm currently in my 3rd year of studies, focusing on expanding my knowledge in the field.  <br><br>🎯 My goals are:  <br>- <strong>Build my first e-commerce website</strong>.  <br>- <strong>Learn about cybersecurity</strong>.  <br>- <strong>Meet new people who are eager to innovate and improve the world</strong>.  <br><br>🎲 Fun fact: I built my first computer from scratch when I was 13 years old.</p>  
+<p align="left">✨ I started creating bugs in <strong>2022</strong>, and I haven't stopped since then.  <br><br>📚 I'm currently in my 4rd year of studies, focusing on expanding my knowledge in the field.  <br><br>🎯 My goals are:  <br>- <strong>Build my first e-commerce website</strong>.  <br>- <strong>Learn about cybersecurity</strong>.  <br>- <strong>Meet new people who are eager to innovate and improve the world</strong>.  <br><br>🎲 Fun fact: I built my first computer from scratch when I was 13 years old.</p>  
 
 ###  
 
