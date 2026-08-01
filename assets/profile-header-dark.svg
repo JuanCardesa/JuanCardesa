@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Juan Cardesa profile header</title>
+  <desc id="desc">Dark engineering-themed banner with Juan Cardesa's name, backend and application security tagline, and an abstract API analysis flow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0B1C2D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1024 176) rotate(180) scale(370 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00D4FF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7DD3FC" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+  <path d="M0 24C0 10.745 10.745 0 24 0h1232c13.255 0 24 10.745 24 24v5H0z" fill="#0D2136"/>
+  <circle cx="25" cy="14.5" r="4" fill="#F59E0B"/>
+  <circle cx="40" cy="14.5" r="4" fill="#38BDF8" fill-opacity="0.55"/>
+  <circle cx="55" cy="14.5" r="4" fill="#22D3EE" fill-opacity="0.35"/>
+  <text x="80" y="18.5" fill="#7892AA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.8">SECURE WORKSHOP / PROFILE</text>
+
+  <text x="72" y="92" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="2.2">BACKEND + APPLICATION SECURITY</text>
+  <rect x="72" y="110" width="48" height="3" rx="1.5" fill="#F59E0B"/>
+  <text x="72" y="174" fill="#F3F8FC" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.8">Juan Cardesa</text>
+  <text x="72" y="218" fill="#B7C8D8" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="450">Backend engineering with a security mindset.</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="0.7">
+    <rect x="72" y="259" width="160" height="34" rx="8" fill="#10283F" stroke="#1F6F99"/>
+    <circle cx="91" cy="276" r="4" fill="#38BDF8"/>
+    <text x="105" y="280" fill="#BFE9FA">PYTHON / FASTAPI</text>
+    <rect x="244" y="259" width="165" height="34" rx="8" fill="#10283F" stroke="#1F6F99"/>
+    <circle cx="263" cy="276" r="4" fill="#22D3EE"/>
+    <text x="277" y="280" fill="#BFE9FA">JAVA / SPRING</text>
+    <rect x="421" y="259" width="206" height="34" rx="8" fill="#10283F" stroke="#1F6F99"/>
+    <circle cx="440" cy="276" r="4" fill="#F59E0B"/>
+    <text x="454" y="280" fill="#BFE9FA">DEFENSIVE SECURITY</text>
+  </g>
+
+  <g transform="translate(760 64)">
+    <rect width="448" height="236" rx="16" fill="#081522" fill-opacity="0.86" stroke="#1E5374"/>
+    <path d="M0 42h448" stroke="#1E5374"/>
+    <circle cx="20" cy="21" r="4" fill="#22D3EE"/>
+    <text x="34" y="25" fill="#7892AA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">trace / defensive-analysis</text>
+    <text x="383" y="25" fill="#F59E0B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10">ACTIVE</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <rect x="28" y="67" width="134" height="46" rx="9" fill="#0E2940" stroke="#1684B4"/>
+      <text x="46" y="86" fill="#38BDF8" font-size="10">POST</text>
+      <text x="46" y="101" fill="#D7EDF7" font-size="12">/analyze</text>
+
+      <path d="M162 90h54" stroke="#38BDF8" stroke-width="1.5"/>
+      <path d="m209 84 8 6-8 6" fill="none" stroke="#38BDF8" stroke-width="1.5"/>
+
+      <rect x="218" y="67" width="94" height="46" rx="9" fill="#0E2940" stroke="#1684B4"/>
+      <text x="237" y="86" fill="#7892AA" font-size="10">SCAN</text>
+      <text x="237" y="101" fill="#D7EDF7" font-size="11">patterns</text>
+
+      <path d="M312 90h42" stroke="#22D3EE" stroke-width="1.5"/>
+      <path d="m347 84 8 6-8 6" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
+
+      <rect x="356" y="67" width="64" height="46" rx="9" fill="#12312E" stroke="#22D3EE"/>
+      <text x="370" y="86" fill="#22D3EE" font-size="10">SAFE</text>
+      <text x="370" y="101" fill="#D7EDF7" font-size="11">output</text>
+
+      <path d="M95 113v44h125" fill="none" stroke="#1E5374"/>
+      <circle cx="95" cy="157" r="3" fill="#38BDF8"/>
+      <path d="M388 113v44H267" fill="none" stroke="#1E5374"/>
+      <circle cx="388" cy="157" r="3" fill="#22D3EE"/>
+
+      <rect x="28" y="176" width="392" height="35" rx="8" fill="#0B2032" stroke="#173F5A"/>
+      <text x="45" y="198" fill="#7892AA" font-size="11">01</text>
+      <text x="77" y="198" fill="#BFE9FA" font-size="11">detect</text>
+      <text x="151" y="198" fill="#7892AA" font-size="11">→</text>
+      <text x="174" y="198" fill="#BFE9FA" font-size="11">redact</text>
+      <text x="248" y="198" fill="#7892AA" font-size="11">→</text>
+      <text x="271" y="198" fill="#BFE9FA" font-size="11">explain</text>
+      <circle cx="393" cy="193.5" r="4" fill="#F59E0B"/>
+    </g>
+  </g>
+
+  <text x="72" y="331" fill="#5F7990" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1">SEVILLE, SPAIN  /  BUILD • TEST • HARDEN</text>
+</svg>

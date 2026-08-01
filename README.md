@@ -1,75 +1,69 @@
-<h2 align="left">Hey! 👋 What's up?</h2>   
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
+  <img src="assets/profile-header-light.svg" alt="Juan Cardesa — backend engineering with a security mindset" width="100%">
+</picture>
 
-###  
+# Juan Cardesa
 
-<p align="left">My name is <strong>Juan</strong>, and I'm a <strong>Software Engineering student</strong> from <strong>Seville</strong>.</p>  
+**Backend engineering with a security mindset.**
 
-###  
+Software Engineering student in the final stage of my degree, based in Seville, Spain. I build backend systems, developer tools, and defensive security projects with Python/FastAPI and Java/Spring Boot.
 
-<h3 align="left">About Me</h3>  
+[Portfolio](https://juancardesa.dev) · [LinkedIn](https://www.linkedin.com/in/juan-cardesa-sosa-a39623258/) · [Secret Scanner CLI](https://github.com/JuanCardesa/secret-scanner-cli)
 
-###  
+I enjoy understanding how systems fail and turning that knowledge into useful software: reliable APIs, practical automation, and security tooling with clear boundaries. That curiosity started early—I built my first computer from scratch when I was 13.
 
-<p align="left">✨ I started creating bugs in <strong>2022</strong>, and I haven't stopped since then.  <br><br>📚 I'm currently in my 3rd year of studies, focusing on expanding my knowledge in the field.  <br><br>🎯 My goals are:  <br>- <strong>Build my first e-commerce website</strong>.  <br>- <strong>Learn about cybersecurity</strong>.  <br>- <strong>Meet new people who are eager to innovate and improve the world</strong>.  <br><br>🎲 Fun fact: I built my first computer from scratch when I was 13 years old.</p>  
+## Selected work
 
-###  
+### [Secret Scanner CLI](https://github.com/JuanCardesa/secret-scanner-cli) · flagship project
 
-<h3 align="left">Programming Tools</h3>  
+> A defensive Python CLI for authorized secret scanning across GitHub and local code.
 
-###  
+- **Built:** scans repositories and organizations through the GitHub API without cloning, plus local files and recent commit history. Detection combines provider patterns with Shannon entropy and redacts matches before reporting.
+- **Solves:** helps find credentials exposed in current code or left behind in Git history.
+- **Shows:** async API integration, bounded concurrency, terminal/JSON/HTML/SARIF output, CI gating, a pre-commit hook, a reusable GitHub Action, and a published [PyPI package](https://pypi.org/project/cardesa-secret-scanner/).
 
-<div align="left">  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="40" alt="markdown logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />  
-  <img width="12" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="40" alt="blender logo"  />  
-</div>  
+`Python` `GitHub API` `SARIF` `pytest` `GitHub Actions`
 
-###  
+### [PhishLens](https://github.com/JuanCardesa/PhishLens)
 
-<h3 align="left">Contact</h3>  
+> An explainable phishing-risk assistant built as a Chrome Manifest V3 extension and a FastAPI backend.
 
-###  
+- **Built:** a React/TypeScript extension that combines local URL and privacy-preserving DOM signals with optional backend enrichment.
+- **Solves:** makes phishing risk easier to inspect by explaining the signals behind a result without sending full HTML, passwords, form values, or typed emails.
+- **Shows:** FastAPI endpoints, threat intelligence, TLS and domain-age analysis, optional ML explanations, pytest/Vitest coverage, a real-Chromium smoke test, Docker, and automated CI.
 
-<div align="left">  
-  <a href="https://www.linkedin.com/in/juan-cardesa-sosa-a39623258/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />  
-  </a>  
-  <a href="https://www.instagram.com/juancardesa/" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />  
-  </a>  
-  <a href="https://discordapp.com/users/561818013788274688" target="_blank">  
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />  
-  </a>  
-</div>  
+[Live project](https://juancardesa.github.io/PhishLens/) · `React` `TypeScript` `FastAPI` `Manifest V3`
 
-###  
+### [Threat Intel Honeypot](https://github.com/JuanCardesa/Threat-Intel-Honeypot) · work in progress
 
-<img src="https://raw.githubusercontent.com/JuanCardesa/JuanCardesa/output/snake.svg" alt="Snake animation" />  
+> A safety-first Cowrie lab and Python pipeline for turning honeypot telemetry into structured defensive analysis.
 
-###  
+- **Built:** a local Docker Compose baseline and a tested pipeline that parses, anonymizes, enriches, stores, and maps events to possible MITRE ATT&CK techniques.
+- **Solves:** creates a repeatable path from semi-structured Cowrie logs to an SQLite dataset and static analysis dashboard.
+- **Shows:** threat boundaries, defensive data engineering, unit-tested automation, and honest reporting. It has been validated locally, but **has not been exposed to the Internet and does not claim unsolicited attack data**.
 
-<h5 align="left">Thanks for visiting my profile! Don't hesitate to drop me a message or give a star to my repositories.</h5>  
+`Python` `Cowrie` `Docker` `SQLite` `MITRE ATT&CK`
 
-###  
+## Current focus
 
-<div align="center">  
-  <img height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExendicXZjMXdzdW5kbHJubWtqcXNmZzh2NnR5OXZjY2M0NmtqazRvaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/txcIHRNl2vcDm/giphy.gif"  />  
-</div>  
+- Deepening my backend and Application Security practice.
+- Building and validating the Threat Intel Honeypot pipeline before any public deployment.
+- Finishing my Software Engineering studies.
 
-###  
+## Technical toolkit
+
+| Area | Tools and practices |
+| --- | --- |
+| **Core** | `Python` `Java` `TypeScript` |
+| **Backend** | `FastAPI` `Spring Boot` `REST APIs` |
+| **Security** | `Secret detection` `Secure development` `Threat modelling` `MITRE ATT&CK mapping` |
+| **Quality & delivery** | `pytest` `Testing` `GitHub Actions` `Git` `Docker` |
+| **Data** | `SQL` `MySQL` `SQLite` |
+
+## Let's connect
+
+Interested in backend engineering, defensive security, or building useful developer tools? Let’s connect.
+
+[LinkedIn](https://www.linkedin.com/in/juan-cardesa-sosa-a39623258/) · [Portfolio](https://juancardesa.dev)
