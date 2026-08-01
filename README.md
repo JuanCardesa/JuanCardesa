@@ -6,7 +6,7 @@
 
 # Hi, I'm Juan 👋
 
-**Backend engineering with a security mindset — and a healthy curiosity for how things break.**
+**Backend engineering with a security mindset—and a healthy curiosity for how things break.**
 
 I've been curious about computers since I built my first PC at 13. These days, that curiosity goes into backends, APIs, automation, and defensive tools—the kind that catch problems early and explain what happened.
 
@@ -66,7 +66,7 @@ It pairs a React/TypeScript Manifest V3 extension with a FastAPI backend, withou
 
 This is the project where being careful is part of the engineering. I'm building a local Cowrie lab and Python pipeline that parses, anonymizes, enriches, stores, and maps events to possible MITRE ATT&CK techniques.
 
-The pipeline works against synthetic samples and a self-generated local Cowrie capture. It has **not** been exposed to the Internet and does not claim unsolicited attack data—that step stays behind a deliberate security checklist.
+The pipeline works against synthetic samples and a self-generated local Cowrie capture. It has **not** been exposed to the Internet and doesn't claim any real-world attack data—that step stays behind a deliberate security checklist.
 
 `Python` `Cowrie` `Docker` `SQLite` `MITRE ATT&CK`
 
@@ -81,7 +81,7 @@ The pipeline works against synthetic samples and a self-generated local Cowrie c
 | What for | What I reach for |
 | --- | --- |
 | **Building backends** | `Python` `FastAPI` `Java` `Spring Boot` `REST APIs` |
-| **Thinking defensively** | `Secret detection` `Secure development` `Threat modelling` |
+| **Thinking defensively** | `Secret detection` `Secure development` `Threat modeling` |
 | **Checking my work** | `pytest` `Testing` `GitHub Actions` `Git` |
 | **Shipping and storing** | `Docker` `SQL` `MySQL` `SQLite` |
 | **Building interfaces when needed** | `TypeScript` `React` |

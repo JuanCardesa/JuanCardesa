@@ -52,7 +52,5 @@
 
   <path d="M48 214h904" stroke="#225676"/>
   <text x="48" y="239" fill="#7693A7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1">STATUS: VALIDATED LOCALLY  •  REAL INTERNET DATA: NOT YET  •  SAFETY FIRST</text>
-  <circle cx="931" cy="235" r="5" fill="#F59E0B">
-    <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
+  <circle cx="931" cy="235" r="5" fill="#F59E0B"/>
 </svg>
